@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Article from './components/article/Article'
+
+
 const app = () => {
   return (
     <div>
