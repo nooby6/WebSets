@@ -6,7 +6,7 @@ import { CTA, Brand, Navbar } from './components';
 const app = () => {
   return (
     <div>
-      <h1>App-1</h1>
+      <h1>GPT-3</h1>
     </div>
   )
 }
