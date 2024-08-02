@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Footer, Blog,  } from './containers';
+
 const app = () => {
   return (
     <div>
