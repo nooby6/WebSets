@@ -41,5 +41,8 @@
     line-height: 25px;
     font-size: 18px;
     text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
 }
 
