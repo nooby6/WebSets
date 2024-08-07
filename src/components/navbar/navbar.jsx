@@ -27,8 +27,9 @@ const Navbar = () => {
         <button type='button'>Sign Up</button>
       </div>
       <div className='gpt3__navbar-menu'>
-        {toggleMenu
+      {toggleMenu
           ? <RiCloseLine color='#fff' size={27} onClick={() => settoggleMenu(false)} />
+          : <RiMenu3Line color='#fff' size={27} onClick={() => settoggleMenu(true)} />
         }
       </div>
     </div>
