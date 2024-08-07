@@ -17,9 +17,9 @@ const Navbar = () => {
         <div className='gpt3__navbar-links_container'>
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#Possibility">Open AI</a></p>
-          <p><a href="#Features">Case Studies</a></p>
-          <p><a href="#Blog">Library</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#blog">Library</a></p>
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
@@ -27,9 +27,9 @@ const Navbar = () => {
         <button type='button'>Sign Up</button>
       </div>
       <div className='gpt3__navbar-menu'>
-      {toggleMenu
-          ? <RiCloseLine color='#fff' size={27} onClick={() => settoggleMenu(false)} />
-          : <RiMenu3Line color='#fff' size={27} onClick={() => settoggleMenu(true)} />
+        {toggleMenu
+          ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
         }
       </div>
     </div>
