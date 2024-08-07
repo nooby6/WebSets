@@ -6,7 +6,7 @@ import './navbar.css';
 // BEM - Block Element Modifier
 
 const Navbar = () => {
-  const {toggleMenu, setToggleMenu} = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className='gpt3__navbar'>
