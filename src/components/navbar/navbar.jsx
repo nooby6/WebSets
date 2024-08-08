@@ -23,6 +23,7 @@ const Navbar = () => {
       <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
           <img src={logo} alt="logo" />
+          <Menu />
         </div>
         <div className='gpt3__navbar-links_container'>
           <p><a href="#home">Home</a></p>
@@ -43,7 +44,9 @@ const Navbar = () => {
         }
         {toggleMenu && (
           <div className='gpt3__navbar-menu_container scale-up-center'>
-            <div className='gpt3__navbar-menu_container-links'></div>
+            <div className='gpt3__navbar-menu_container-links'>
+              <Menu />
+            </div>
           </div>
         )
         }
