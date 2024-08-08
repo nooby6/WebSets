@@ -87,5 +87,12 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba();
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+.gpt3__navbar-menu_container_p {
+    margin: 1rem 0;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+    display: none;
 }
