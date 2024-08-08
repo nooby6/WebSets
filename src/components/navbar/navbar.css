@@ -106,3 +106,23 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+}
