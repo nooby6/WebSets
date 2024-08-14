@@ -14,4 +14,3 @@ OpenAI</h1>
 }
 
 export default Header
-hnv.n
