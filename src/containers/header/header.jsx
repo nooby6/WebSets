@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import people from '../../assets/people.png';
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
       </div>
 
       <div className='gpt3__header-content__people'>
-        <img src="{People}" alt="" />
+        <img src="{people}" alt="" />
       </div>
      </div>
     </div>
