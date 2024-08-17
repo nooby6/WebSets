@@ -1,6 +1,7 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
 import people from '../../assets/people.png';
+import ai from '../../assets/ai.png';
 
 const Header = () => {
   return (
