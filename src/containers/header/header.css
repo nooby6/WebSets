@@ -41,5 +41,6 @@
 }
 
 .gpt3__header-content__input input {
-    
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
 }
