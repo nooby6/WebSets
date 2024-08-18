@@ -44,7 +44,7 @@
     flex: 2;
     width: 100%;
     min-height: 50px;
-    background: #052D56;
+    background: var(--color-footer);
     border-radius: 5px 0px 0px 5px;
     font-family: var(--font-family);
     font-size: 28px;
