@@ -51,5 +51,7 @@
     line-height: 27px;
     color: #3d6184;
     padding: 0 1rem;
+    outline:none;
+    color: #fff;
     border: 2px solid var(--color-footer);
 }
