@@ -50,4 +50,6 @@
     font-size: 28px;
     line-height: 27px;
     color: #3d6184;
+    padding: 0 1rem;
+    border: 2px solid var(--color-footer);
 }
