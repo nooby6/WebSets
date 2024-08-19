@@ -60,14 +60,17 @@
     flex: 0.6;
     width: 100%;
     min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    line-height: 27px;
 
     background: #FF4620;
     border-radius: 5px 0px 0px 5px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
 
-    font-weight: bold;
     font-size: 20px;
-    line-height: 27px;
     color: #fff;
 
 }
