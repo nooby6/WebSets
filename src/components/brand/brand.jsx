@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import {google, atlassian, slack, dropbox, shopify} from './imports'
+import { google, atlassian, slack, dropbox, shopify } from './imports'
 
 const Brand = () => {
   return (
