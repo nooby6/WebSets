@@ -1,10 +1,10 @@
 import React from 'react';
+import { google, atlassian, slack, dropbox, shopify } from './imports';
 import './brand.css';
-import { google, atlassian, slack, dropbox, shopify } from './imports'
 
 const Brand = () => {
   return (
-    <div className='gpt3__bramd section__paddimg'>
+    <div className='gpt3__brand section__padding'>
       <div>
         <img src={google} alt="google" />
       </div>
@@ -24,4 +24,4 @@ const Brand = () => {
   )
 }
 
-export default Brand
+export default Brand;
