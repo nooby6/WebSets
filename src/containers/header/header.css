@@ -154,4 +154,9 @@
         font-size: 36px;
         line-height: 48px;
     }
+
+    .gpt3__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
