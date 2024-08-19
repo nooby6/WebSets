@@ -64,14 +64,14 @@
     font-family: var(--font-family);
     font-weight: bold;
     line-height: 27px;
-
     background: #FF4620;
-    border-radius: 5px 0px 0px 5px;
     cursor: pointer;
     outline: none;
     padding: 0 1rem;
-
     font-size: 20px;
     color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px
 
 }
