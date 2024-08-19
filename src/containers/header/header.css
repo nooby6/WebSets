@@ -89,3 +89,13 @@
     width: 181.79px;
     height: 38px;
 }
+
+.gpt3__header-content__people p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: var(--color-text);
+    margin-left: 1rem;
+}
